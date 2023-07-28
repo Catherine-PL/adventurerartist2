@@ -129,12 +129,43 @@ export default function Home() {
             </Link>
           </div>
         )}
-        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
-          <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
-          <p className="tablet:m-10 mt-2 text-neutral-400 laptop:text-xl w-full laptop:w-3/5 whitespace-pre-line">
-            {data.aboutpara}
-          </p>
-        </div>
+        {/* A JSX comment
+          <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
+                  <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
+                  <p className="tablet:m-10 mt-2 text-neutral-400 laptop:text-xl w-full laptop:w-3/5 whitespace-pre-line">
+                    {data.aboutpara}
+                  </p>
+                </div>
+        */}
+
+
+
+
+
+
+         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
+                  <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
+                  <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-4 gap-6">
+                   <div  ref={aboutRef} className="col-span-3">
+                            <p className="tablet:m-10 mt-2 text-neutral-400 laptop:text-xl whitespace-pre-line">
+                              {data.aboutpara}
+                            </p>
+                   </div>
+                    <div >
+                    <p className="text-white">. </p>
+                        <p className="text-white">. </p>
+                            <p className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto">
+                                <div>
+                                 <img src="https://i.ibb.co/WyXsHgV/me1.jpg" alt="Me" />
+                                </div>
+                            </p>
+
+                     </div>
+                  </div>
+                </div>
+
+
+
         <Footer />
       </div>
     </div>

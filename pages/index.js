@@ -73,7 +73,7 @@ export default function Home() {
             </h1>
             <h1
               ref={textTwo}
-              className="text-2xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              className="text-neutral-400  text-2xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
             >
               {data.headerTaglineTwo}
             </h1>

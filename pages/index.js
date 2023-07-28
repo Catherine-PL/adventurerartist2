@@ -154,7 +154,7 @@ export default function Home() {
                   <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
                   <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-4 gap-6">
                    <div  ref={aboutRef} className="col-span-3">
-                            <p className="tablet:m-10 mt-2 text-neutral-400 laptop:text-xl whitespace-pre-line">
+                            <p className="tablet:m-4 mt-2 text-neutral-400 laptop:text-xl whitespace-pre-line">
                               {data.aboutpara}
                             </p>
                    </div>

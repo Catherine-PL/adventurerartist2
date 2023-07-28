@@ -74,7 +74,7 @@ export default function Home() {
             </h1>
 */}
                 <div ref={textOne}>
-                 <img src="https://i.ibb.co/d5MVtC5/name.png" alt="AdventurerArtist" class="mx-auto" />
+                 <img src="https://i.ibb.co/d5MVtC5/name.png" alt="AdventurerArtist" className="mx-auto" />
                </div>
 
             <h1

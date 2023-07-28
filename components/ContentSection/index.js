@@ -25,7 +25,7 @@ const CodeBlock = {
 
 const ContentSection = ({ content }) => {
   return (
-    <ReactMarkdown components={CodeBlock} className="markdown-class">
+    <ReactMarkdown components={CodeBlock} className="mt-10 laptop:mt-20 p-2 laptop:p-0 tablet:m-10 mt-2 laptop:text-xl w-full laptop:w-4/5 whitespace-pre-line">
       {content}
     </ReactMarkdown>
   );

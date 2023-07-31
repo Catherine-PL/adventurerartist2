@@ -1,7 +1,7 @@
 ---
 date: '2023-01-20T12:50:54.000Z'
 title: About Urban Sketchers
-tagline: ' What we are, our manifesto and my story'
+tagline: ' Who we are, our manifesto and my story'
 preview: ' What we are, our manifesto and my story'
 image: 'https://i.ibb.co/yRn1MLQ/PSX-20230721-202712.jpg'
 ---

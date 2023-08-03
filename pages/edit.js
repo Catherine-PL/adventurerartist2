@@ -137,6 +137,25 @@ const Edit = () => {
     });
   };
 
+   const handleAddExperiences2 = () => {
+      setData({
+        ...data,
+        resume: {
+          ...data.resume,
+          experiences2: [
+            ...data.resume.experiences2,
+            {
+              id: uuidv4(),
+              dates: "Enter Dates",
+              type: "Full Time",
+              position: "Frontend Engineer at X",
+              bullets: ["Worked on the frontend of a React application"],
+            },
+          ],
+        },
+      });
+    };
+
   const handleEditExperiences = (index, editExperience) => {
     let copyExperiences = data.resume.experiences;
     copyExperiences[index] = { ...editExperience };
@@ -145,6 +164,15 @@ const Edit = () => {
       resume: { ...data.resume, experiences: copyExperiences },
     });
   };
+
+    const handleEditExperiences2 = (index, editExperience) => {
+      let copyExperiences = data.resume.experiences2;
+      copyExperiences[index] = { ...editExperience };
+      setData({
+        ...data,
+        resume: { ...data.resume, experiences2: copyExperiences },
+      });
+    };
 
   return (
     <div className={`container mx-auto ${data.showCursor && "cursor-none"}`}>
@@ -637,7 +665,7 @@ const Edit = () => {
                     ></input>
                   </div>
                   <div className="mt-2 flex">
-                    <label className="w-1/5 text-lg opacity-50">Bullets</label>
+                    <label className="w-1/5 text-lg opacity-50">Description</label>
                     <div className="w-4/5 ml-10 flex flex-col">
                       <input
                         value={experiences.bullets}
@@ -647,7 +675,7 @@ const Edit = () => {
                             bullets: e.target.value,
                           })
                         }
-                        placeholder="Bullet One, Bullet Two, Bullet Three"
+                        placeholder="Description"
                         className="p-2 rounded-md shadow-lg border-2"
                         type="text"
                       ></input>
@@ -661,6 +689,90 @@ const Edit = () => {
                 Add Experience +
               </Button>
             </div>
+
+              <h1>Future plans</h1>
+                        <div className="mt-10">
+                          {data.resume.experiences2.map((experiences2, index) => (
+                            <div className="mt-5" key={experiences2.id}>
+                              <div className="flex items-center justify-between">
+                                <h1 className="text-2xl">{experiences2.position}</h1>
+                                <Button
+                                  // onClick={() => deleteProject(project.id)}
+                                  type="primary"
+                                >
+                                  Delete
+                                </Button>
+                              </div>
+
+                              <div className="flex items-center mt-5">
+                                <label className="w-1/5 text-lg opacity-50">Dates</label>
+                                <input
+                                  value={experiences2.dates}
+                                  onChange={(e) =>
+                                    handleEditExperiences2(index, {
+                                      ...experiences2,
+                                      dates: e.target.value,
+                                    })
+                                  }
+                                  className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                  type="text"
+                                ></input>
+                              </div>
+                              <div className="flex items-center mt-2">
+                                <label className="w-1/5 text-lg opacity-50">Type</label>
+                                <input
+                                  value={experiences2.type}
+                                  onChange={(e) =>
+                                    handleEditExperiences2(index, {
+                                      ...experiences2,
+                                      type: e.target.value,
+                                    })
+                                  }
+                                  className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                  type="text"
+                                ></input>
+                              </div>
+                              <div className="flex items-center mt-2">
+                                <label className="w-1/5 text-lg opacity-50">Position</label>
+                                <input
+                                  value={experiences2.position}
+                                  onChange={(e) =>
+                                    handleEditExperiences2(index, {
+                                      ...experiences2,
+                                      position: e.target.value,
+                                    })
+                                  }
+                                  className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                  type="text"
+                                ></input>
+                              </div>
+                              <div className="mt-2 flex">
+                                <label className="w-1/5 text-lg opacity-50">Description</label>
+                                <div className="w-4/5 ml-10 flex flex-col">
+                                  <input
+                                    value={experiences2.bullets}
+                                    onChange={(e) =>
+                                      handleEditExperiences2(index, {
+                                        ...experiences2,
+                                        bullets: e.target.value,
+                                      })
+                                    }
+                                    placeholder="Description"
+                                    className="p-2 rounded-md shadow-lg border-2"
+                                    type="text"
+                                  ></input>
+                                </div>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                        <div className="my-10">
+                          <Button onClick={handleAddExperiences2} type="primary">
+                            Add Experience +
+                          </Button>
+                        </div>
+
+
             <hr className="my-10"></hr>
             <div className="mt-10">
               <h1>Education</h1>
@@ -730,7 +842,7 @@ const Edit = () => {
               <div className="flex">
                 <label className="w-1/5 text-lg opacity-50">Languages</label>
                 <div className="w-4/5 ml-10 flex flex-col">
-                  {data.resume.languages.map((language, index) => (
+                  {data.resume.languages?.map((language, index) => (
                     <div key={index} className="flex">
                       <input
                         value={language}
@@ -788,7 +900,7 @@ const Edit = () => {
               <div className="flex">
                 <label className="w-1/5 text-lg opacity-50">Frameworks</label>
                 <div className="w-4/5 ml-10 flex flex-col">
-                  {data.resume.frameworks.map((framework, index) => (
+                  {data.resume.frameworks?.map((framework, index) => (
                     <div key={index} className="flex">
                       <input
                         value={framework}
@@ -846,7 +958,7 @@ const Edit = () => {
               <div className="flex">
                 <label className="w-1/5 text-lg opacity-50">Others</label>
                 <div className="w-4/5 ml-10 flex flex-col">
-                  {data.resume.others.map((other, index) => (
+                  {data.resume.others?.map((other, index) => (
                     <div key={index} className="flex">
                       <input
                         value={other}

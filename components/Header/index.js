@@ -95,10 +95,10 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
                   {showResume && (
                     <Button
-                      onClick={() => router.push("/resume")}
+                      onClick={() => router.push("/news")}
                       classes="first:ml-1"
                     >
-                      Resume
+                      News
                     </Button>
                   )}
                 </div>
@@ -127,10 +127,10 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             )}
             {showResume && (
               <Button
-                onClick={() => router.push("/resume")}
+                onClick={() => router.push("/news")}
                 classes="first:ml-1"
               >
-                Resume
+                News
               </Button>
             )}
             {mounted && theme && data.darkMode && (
@@ -152,10 +152,10 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             )}
             {showResume && (
               <Button
-                onClick={() => router.push("/resume")}
+                onClick={() => router.push("/news")}
                 classes="first:ml-1"
               >
-                Resume
+                News
               </Button>
             )}
 

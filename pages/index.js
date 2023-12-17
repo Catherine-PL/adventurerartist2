@@ -17,8 +17,6 @@ import data from "../data/portfolio.json";
 
 export default function Home() {
   // Ref
-  const TRACKING_ID = "G-3327B3D5V3"; // YOUR_OWN_TRACKING_ID
-  ReactGA.initialize(TRACKING_ID);
   const workRef = useRef();
   const aboutRef = useRef();
   const textOne = useRef();

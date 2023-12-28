@@ -1,1 +1,137 @@
-{"name":"AdventurerArtist","headerTaglineOne":"AdventurerArtist","headerTaglineTwo":"Katarzyna Kosiak","headerTaglineThree":"","headerTaglineFour":"","showCursor":false,"showBlog":true,"darkMode":false,"showResume":true,"socials":[{"id":"1","title":"Instagram","link":"https://www.instagram.com/catherine_pl_art/"},{"id":"2","title":"Facebook","link":"https://www.facebook.com/AdventurerArtist"},{"id":"3","title":"Etsy","link":"https://www.etsy.com/shop/adventurerartist"},{"id":"4","title":"YouTube","link":"https://www.youtube.com/channel/UCRV4DNFDv0YeqyJmUEngGaA"},{"id":"5","title":"Behance","link":"https://www.behance.net/adventurerartist"},{"id":"a949dde1-7eaf-4b43-9537-d2f1a4d594fd","title":"Blog","link":"https://www.adventurerartist.com/blog"}],"projects":[{"id":"1","title":"Welcome!","description":"Introduction - my artistic journey, techniques I tried, biggest art dreams","imageSrc":"https://i.ibb.co/LJZKyjM/1blog.jpg","url":"/blog/673927b0-59a3-47e9-ab9b-31d15531b13f"},{"id":"2","title":"\"Rooted in Nature\" - book released!","description":"My very first illustrated book is available on Amazon in English and Polish","imageSrc":"https://i.ibb.co/Z1wWvs2/Untitled-Artwork-1.jpg","url":"/blog/7150c335-0e03-4306-878e-6db7b2bda409"},{"id":"e1e275f1-a0c1-4d95-a017-6e75d2f31632","title":"Favorite Art Materials for Urban Sketching - 2023 Edition","description":"Watercolors, sketchbook, fineliner, colored pencils... and more!","imageSrc":"https://i.ibb.co/x1t0QPZ/PXL-20230824-115854778-MP.jpg","url":"/blog/7b93c65c-4f69-4982-b80b-3930e7929176"},{"id":"d57174a6-3ec0-4683-b3ed-7e8235734aa1","title":"About Urban Sketchers","description":"Who we are, our manifesto and my story","imageSrc":"https://i.ibb.co/yRn1MLQ/PSX-20230721-202712.jpg","url":"/blog/firstblog"}],"services":[{"id":"1","title":"Urban Sketching","description":"I am an active member of Urban Sketchers organisation since 2019 and co-admin of Polish Urban Sketchers Chapter since 2021. I frequently travel solo with sketchbook to observe and present the places I visit, but I also attend and organize urban sketching meetings in Poland, where I live. "},{"id":"2","title":"Digital Art","description":"My digital art projects are focused on experimenting. I create maps from my trips, series of themed illustrations and short stories. The ability to undo any change gives me freedom to try styles and color combinations before I use them in my traditional artworks. "},{"id":"3","title":"Mixed Media","description":"In my art I use and mix various traditional art media: mainly watercolor and colored pencils. Recently I discovered my passion for gouache and inks, so I switch my materials pretty frequently. I'm a fan of trying different mediums and approaches instead of perfecting one."},{"id":"4","title":"Storytelling","description":"I've always loved books and admired people who are able to create and communicate their own stories. After years of practicing art, I finally feel confident enough to try telling stories with my creations. I'm currently working on my first illustrated book \"Rooted in Nature\", which will introduce readers to the Slavic pagan traditions."}],"aboutpara":"Hello, traveler! \n\nI'm Katarzyna Kosiak, an artist who likes to dabble in different mediums and forms of visual arts. I grew up in Northern Poland but moved to the beautiful city of Kraków in 2013 to pursue studies in applied computer science. After living there for almost ten years, I finally achieved my dream of fully remote work. I hope to keep traveling during winters and staying in Poland during warmer seasons. I'm currently based in Toruń, Poland.\n\nArt has always been a part of my life, although there was a few-year-long period during my early twenties when it wasn't one of my priorities. After finishing my studies, I once again had more time to create art, and since then, it has been an important element of my weekly routine. These days, I mostly practice urban sketching and I'm an active member of Urban Sketchers organization, but I'm also developing my personal projects - maps from my travels, short stories, and the biggest project so far: my first book, \"Rooted in Nature\", which is available on Amazon in English and Polish.\n\nMy other interests include language self-study (currently learning Korean and Spanish), biking, and fulfilling my dreams of traveling the world.","resume":{"tagline":"","description":"Here I'm sharing brief notes on my current projects, but you can also check out what I'm up to on my socials:","experiences2":[{"id":"0c2c9d97-04e0-4b61-a3d4-0a91db0672ae","dates":"","type":"webcomic","position":"True story, sister","bullets":"A project with which I want to expand my storytelling skills. Inspired by a bit strange but nevertheless true story, the webcomic will describe the events of one girl doubting her own sanity during her stay in a catholic boarding house. In a series of events so creepy as if taken from TV, what is true and what is just imagination? "},{"id":"2","dates":"","type":"webcomic","position":"Soulless","bullets":"An attempt to translate feelings of isolation and desperation of those who struggle where it seems that everyone else doesn't."}],"experiences":[{"id":"1","dates":"","type":"webcomic, probably one-shot","position":"Black Inked Heart","bullets":"A short, bitter-sweet illustrated coming-of-age story. The plot will be minimal with the focus on inner world of the main character - Dora, who discovers, through art, that perhaps we can't change the cards we're dealt, but we can still play with determination; after all, it's the game that matters. Coming Spring 2024!"}],"education":{"universityName":"True story, sister","universityDate":"webcomic","universityPara":"A project with which I want to expand my storytelling skills. Inspired by a bit strange but nevertheless true story, the webcomic will describe the events of one girl doubting her own sanity during her stay in a catholic boarding house. In a series of events so creepy as if taken from TV, what is true and what is just imagination? "}}}
+{
+  "name": "AdventurerArtist",
+  "headerTaglineOne": "AdventurerArtist",
+  "headerTaglineTwo": "Katarzyna Kosiak",
+  "headerTaglineThree": "",
+  "headerTaglineFour": "",
+  "showCursor": false,
+  "showBlog": true,
+  "darkMode": false,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Instagram",
+      "link": "https://www.instagram.com/catherine_pl_art/"
+    },
+    {
+      "id": "2",
+      "title": "Facebook",
+      "link": "https://www.facebook.com/AdventurerArtist"
+    },
+    {
+      "id": "3",
+      "title": "Etsy",
+      "link": "https://www.etsy.com/shop/adventurerartist"
+    },
+    {
+      "id": "4",
+      "title": "YouTube",
+      "link": "https://www.youtube.com/channel/UCRV4DNFDv0YeqyJmUEngGaA"
+    },
+    {
+      "id": "5",
+      "title": "Behance",
+      "link": "https://www.behance.net/adventurerartist"
+    },
+    {
+      "id": "a949dde1-7eaf-4b43-9537-d2f1a4d594fd",
+      "title": "Blog",
+      "link": "https://www.adventurerartist.com/blog"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Welcome!",
+      "description": "Introduction - my artistic journey, techniques I tried, biggest art dreams",
+      "imageSrc": "https://i.ibb.co/LJZKyjM/1blog.jpg",
+      "url": "/blog/673927b0-59a3-47e9-ab9b-31d15531b13f"
+    },
+    {
+      "id": "2",
+      "title": "\"Rooted in Nature\" - book released!",
+      "description": "My very first illustrated book is available on Amazon in English and Polish",
+      "imageSrc": "https://i.ibb.co/Z1wWvs2/Untitled-Artwork-1.jpg",
+      "url": "/blog/7150c335-0e03-4306-878e-6db7b2bda409"
+    },
+    {
+      "id": "e1e275f1-a0c1-4d95-a017-6e75d2f31632",
+      "title": "Favorite Art Materials for Urban Sketching - 2023 Edition",
+      "description": "Watercolors, sketchbook, fineliner, colored pencils... and more!",
+      "imageSrc": "https://i.ibb.co/x1t0QPZ/PXL-20230824-115854778-MP.jpg",
+      "url": "/blog/7b93c65c-4f69-4982-b80b-3930e7929176"
+    },
+    {
+      "id": "d57174a6-3ec0-4683-b3ed-7e8235734aa1",
+      "title": "About Urban Sketchers",
+      "description": "Who we are, our manifesto and my story",
+      "imageSrc": "https://i.ibb.co/yRn1MLQ/PSX-20230721-202712.jpg",
+      "url": "/blog/firstblog"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Urban Sketching",
+      "description": "I am an active member of Urban Sketchers organisation since 2019 and co-admin of Polish Urban Sketchers Chapter since 2021. I frequently travel solo with sketchbook to observe and present the places I visit, but I also attend and organize urban sketching meetings in Poland, where I live. "
+    },
+    {
+      "id": "2",
+      "title": "Digital Art",
+      "description": "My digital art projects are focused on experimenting. I create maps from my trips, series of themed illustrations and short stories. The ability to undo any change gives me freedom to try styles and color combinations before I use them in my traditional artworks. "
+    },
+    {
+      "id": "3",
+      "title": "Mixed Media",
+      "description": "In my art I use and mix various traditional art media: mainly watercolor and colored pencils. Recently I discovered my passion for gouache and inks, so I switch my materials pretty frequently. I'm a fan of trying different mediums and approaches instead of perfecting one."
+    },
+    {
+      "id": "4",
+      "title": "Storytelling",
+      "description": "I've always loved books and admired people who are able to create and communicate their own stories. After years of practicing art, I finally feel confident enough to try telling stories with my creations. I'm currently working on my first illustrated book \"Rooted in Nature\", which will introduce readers to the Slavic pagan traditions."
+    }
+  ],
+  "aboutpara": "Hello, traveler! \n\nI'm Katarzyna Kosiak, an artist who likes to dabble in different mediums and forms of visual arts. I grew up in Northern Poland but moved to the beautiful city of Kraków in 2013 to pursue studies in applied computer science. After living there for almost ten years, I finally achieved my dream of fully remote work. I hope to keep traveling during winters and staying in Poland during warmer seasons. I'm currently based in Toruń, Poland.\n\nArt has always been a part of my life, although there was a few-year-long period during my early twenties when it wasn't one of my priorities. After finishing my studies, I once again had more time to create art, and since then, it has been an important element of my weekly routine. These days, I mostly practice urban sketching and I'm an active member of Urban Sketchers organization, but I'm also developing my personal projects - maps from my travels, short stories, and the biggest project so far: my first book, \"Rooted in Nature\", which is available on Amazon in English and Polish.\n\nMy other interests include language self-study (currently learning Korean and Spanish), biking, and fulfilling my dreams of traveling the world.",
+  "resume": {
+    "tagline": "",
+    "description": "Here I'm sharing brief notes on my current projects, but you can also check out what I'm up to on my socials:",
+    "experiences2": [
+      {
+        "id": "0c2c9d97-04e0-4b61-a3d4-0a91db0672ae",
+        "dates": "",
+        "type": "webcomic",
+        "position": "True story, sister",
+        "bullets": "A project with which I want to expand my storytelling skills. Inspired by a bit strange but nevertheless true story, the webcomic will describe the events of one girl doubting her own sanity during her stay in a catholic boarding house. In a series of events so creepy as if taken from TV, what is true and what is just imagination? "
+      },
+      {
+        "id": "2",
+        "dates": "",
+        "type": "webcomic",
+        "position": "Soulless",
+        "bullets": "An attempt to translate feelings of isolation and desperation of those who struggle where it seems that everyone else doesn't."
+      },
+      {
+        "id": "3",
+        "dates": "",
+        "type": "?",
+        "position": "410 Gone",
+        "bullets": "Probably a noir series of illustrations depicting a change and its effects"
+      }
+    ],
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "",
+        "type": "webcomic, 16 episodes",
+        "position": "Black Inked Heart",
+        "bullets": "A short, bitter-sweet illustrated coming-of-age story. The plot will be minimal with the focus on inner world of the main character - Dora, who discovers, through art, that perhaps we can't change the cards we're dealt, but we can still play with determination; after all, it's the game that matters. Coming Autumn 2024 on webtoon!"
+      }
+    ],
+    "education": {
+      "universityName": "True story, sister",
+      "universityDate": "webcomic",
+      "universityPara": "A project with which I want to expand my storytelling skills. Inspired by a bit strange but nevertheless true story, the webcomic will describe the events of one girl doubting her own sanity during her stay in a catholic boarding house. In a series of events so creepy as if taken from TV, what is true and what is just imagination? "
+    }
+  }
+}
